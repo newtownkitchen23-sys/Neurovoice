@@ -3,9 +3,7 @@
 > **AI-Powered Neurological Voice Biomarker Screening in 60 Seconds.** 
 > Exposing clinical-grade vocal digital phenotyping tools directly to AI agents using the [WebMCP Standard](https://chrome.com).
 
-[![WebMCP Standard](https://shields.io)](https://chrome.com)
-[![Production App](https://shields.io)](https://zite.so)
-[![Hackathon](https://shields.io)](https://devpost.com)
+🚀 **TRY THE APP LIVE RIGHT NOW:** [https://neurovoice.zite.so/](https://neurovoice.zite.so/)
 
 ---
 
@@ -18,7 +16,7 @@ Neurological, neuromuscular, and respiratory conditions often manifest early, su
 
 ## ✨ Core Product Capabilities
 
-*   **⚡ Live Production Deployment:** Access the working platform immediately at [https://zite.so](https://zite.so).
+*   **⚡ Try It Live:** Open the working platform directly via your browser at: https://neurovoice.zite.so/
 *   **🎙️ Clinical Voice Capture:** High-fidelity 44.1 kHz mono audio recording matching scientific research parameters with a synchronized real-time oscilloscope waveform monitor.
 *   **📊 Vocal Biomarker Matrix:** Automated serverless computation of micro-perturbation metrics:
     *   `Jitter`: Frequency micro-instability variation.
@@ -74,7 +72,7 @@ if (typeof navigator.modelContext !== 'undefined') {
     },
     async function(args) {
       try {
-        const response = await fetch('https://zite.soapi/dsp/extract', {
+        const response = await fetch('https://zite.so', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ length: args.audioBufferLength, rate: args.samplingRate })
@@ -120,7 +118,7 @@ Because WebMCP is an emerging browser-native standard, judges must prepare their
 ## 📋 Comprehensive Hackathon Evaluation Walkthrough
 
 Judges can execute the following verification workflow to audit the live platform:
-1. **Context Initialization:** Open your WebMCP-enabled browser and navigate to the live deployment link: [https://zite.so](https://zite.so).
+1. **Context Initialization:** Open your WebMCP-enabled browser and navigate to the live deployment link: https://neurovoice.zite.so/
 2. **Authentication Access:** Complete the Google OAuth authentication flow.
 3. **Onboarding Context Capture:** Fill out the demographics calibration card (Name, Age, Sex). The WebMCP layer converts these entries into physical targets.
 4. **Regional Adaptation Mapping:** Use the header toggles to choose a region (e.g., India) and a native language script (e.g., Bengali, Hindi, English). Observe the framework render an isolated, phonetically precise target passage block.
@@ -134,8 +132,3 @@ Judges can execute the following verification workflow to audit the live platfor
 *   **Fully Decentralized Edge Architectures:** Compile Python signal processing models down into WebAssembly (Wasm) modules for client-side processing without relying on servers.
 *   **Multi-Modal Screening Protocols:** Update the browser tool mapping profile to incorporate facial micro-tremor computer vision diagnostics via modern WebGL/Webcam video stream integration layers.
 *   **EMR Data Sync Channels:** Interface backend report dispatch actions with standardized hospital HL7/FHIR communication adapters.
-
----
-
-## ⚖️ Clinical Safety & Regulations Disclaimer
-This application uses code systems modeled after diagnostic voice profiling dashboards, but is constructed exclusively as a hackathon engineering mockup for prototype evaluation purposes. It does not provide medical diagnoses, treatment options, or prescriptive care paths. Users should check physical documentation labels and consult certified healthcare practitioners for actual medical validation.
