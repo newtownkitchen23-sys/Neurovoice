@@ -72,7 +72,8 @@ if (typeof navigator.modelContext !== 'undefined') {
     },
     async function(args) {
       try {
-        const response = await fetch('https://zite.so', {
+        const response = await fetch('/api/dsp/extract', {
+
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ length: args.audioBufferLength, rate: args.samplingRate })
